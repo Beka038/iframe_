@@ -1,0 +1,26 @@
+@keyframes color-change {
+    0% {
+        font-size: 15px;
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+      font-size: 30px;
+    }
+
+    75% {
+        color: white;
+        font-size: 23.5px;
+    }
+  
+    100% {
+      color: blue;
+      font-size: 15px;
+    }
+}
+
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
